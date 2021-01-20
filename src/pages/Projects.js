@@ -11,36 +11,11 @@ const Projects = () => (
 
         <hr />
 
-        <ArticleList />
+        <p><a href="http://rapidscemetery.herokuapp.com/home">Rapids Cemetery Tour</a></p>
+        <p><a href="https://github.com/BrimmStone127?tab=repositories">Check out my GitHub for other random projects and snippets of code.</a></p>
+        <p>Games</p>
+        <p><a href="./games/twenty.html">2048.js - Color blind edition 😎</a></p>
     </div>
 );
-
-const articles = [
-    {
-      title: 'My Introduction to VR Development',
-      url: 'https://www.claybrimm.com/blog/intro-to-vr.html',
-      date: '08.29.2020',
-      author: 'Clayton Brimm',
-      objectID: 0,
-    },
-    {
-      title: "The jobs you won't see on my resume",
-      url: 'https://www.claybrimm.com/blog/jobs-you-wont-see.html',
-      date: '09.18.2020',
-      author: 'Clayton Brimm',
-      objectID: 1,
-    },
-  ];
-
-const ArticleList = () => 
-  articles.map(item => (
-    <div key={item.objectID}>
-      <span>
-        <a href={item.url}>{item.title}</a>
-      </span>
-      <span>{item.author}</span>
-      <span>{item.date}</span>
-    </div>
-));
 
 export default Projects;
