@@ -4,13 +4,9 @@ import React from "react";
 
 const Contact = () => (
     <div>
-        <h1>Contact</h1>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras gravida,
-            risus at dapibus aliquet, elit quam scelerisque tortor, nec accumsan eros
-            nulla interdum justo. Pellentesque dignissim, sapien et congue rutrum,
-            lorem tortor dapibus turpis, sit amet vestibulum eros mi et odio.
-        </p>
+        <h1>Contact Me</h1>
+        <p>Feel free to drop me and email at clay brimm at gmail.com</p>
+        <p>You can also find me on: Twitter, LinkedIn, and Github</p>
     </div>
 );
 
