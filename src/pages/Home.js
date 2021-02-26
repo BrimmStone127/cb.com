@@ -40,7 +40,7 @@ const posts = [
     body: 'Program that creates completely random mazes with starts and finishes, Made in Unity.',
     objectID: 4,
   }, 
-  ];
+];
 
 const Home = () => (
     <div>
